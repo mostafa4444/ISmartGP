@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+    <!--<ListPreference-->
+        <!--android:defaultValue="@string/input_arabic_value"-->
+        <!--android:entries="@array/input"-->
+        <!--android:entryValues="@array/inputValues"-->
+        <!--android:icon="@drawable/ic_voice"-->
+        <!--android:key="@string/voice_preference_key"-->
+        <!--android:summary="@string/voice_preference_summary"-->
+        <!--android:title="@string/voice_preference_title" />-->
+
+</PreferenceScreen>

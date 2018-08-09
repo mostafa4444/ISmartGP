@@ -1,0 +1,317 @@
+<ScrollView android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardBackgroundColor="#FEE1BB"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_height="@dimen/_250sdp">
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:maxHeight="400dp"
+                android:src="@drawable/home" />
+
+
+            <ImageButton
+                android:layout_marginTop="@dimen/_120sdp"
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="@dimen/_35sdp"
+                android:layout_toStartOf="@+id/textView2"
+                android:background="@null"
+                android:src="@drawable/ic_voice_input" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tap_on_mic"
+                android:textColor="@color/text"
+                android:textSize="15dp"
+                android:layout_gravity="bottom|center"
+                android:textStyle="normal"
+                tools:ignore="SpUsage" />
+
+
+            <TextView
+                android:id="@+id/txt_speech_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Your Output"
+                android:textColor="@color/text"
+                android:textSize="15dp"
+                android:layout_gravity="bottom|center"
+                android:textStyle="normal"
+                tools:ignore="SpUsage" />
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            app:cardBackgroundColor="#FEE1BB"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_margin="@dimen/_6sdp"
+                android:src="@drawable/closeddoorhouse"
+                android:id="@+id/house_door_imageView"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_60sdp" />
+
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                app:cardBackgroundColor="#FEE1BB"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_height="wrap_content"
+                        android:text= "Saloon"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+
+                        android:layout_width="@dimen/_115sdp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/_6sdp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_gravity="left"
+                            android:id="@+id/saloon_led_imageView"
+                            android:src="@drawable/closedled"/>
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_gravity="center"
+                            android:id="@+id/saloon_fan_imageView"
+                            android:layout_height="@dimen/_30sdp"
+                            android:src="@drawable/closedfan"/>
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_gravity="right"
+                            android:id="@+id/saloon_tv_imageView"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:src="@drawable/closedtv"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="#FEE1BB"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_height="@dimen/_82sdp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text"
+                        android:text= "Room 1"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+
+                        android:layout_width="@dimen/_95sdp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:id="@+id/room1_led_imageView"
+                            android:layout_gravity="left"
+                            android:src="@drawable/closedled"/>
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_gravity="right"
+                            android:id="@+id/room1_door_imageView"
+
+                            android:layout_height="@dimen/_30sdp"
+                            android:src="@drawable/closedroomdoor"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="#FEE1BB"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_height="@dimen/_82sdp">
+                <LinearLayout
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text"
+                        android:text= "Pathroom"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+
+                        android:layout_width="@dimen/_95sdp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:id="@+id/pathroom_led_imageView"
+                            android:layout_gravity="left"
+                            android:src="@drawable/closedled"/>
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_gravity="right"
+                            android:id="@+id/pathroom_door_imageView"
+                            android:layout_height="@dimen/_30sdp"
+                            android:src="@drawable/closedroomdoor"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginLeft="@dimen/_17sdp"
+                app:cardBackgroundColor="#FEE1BB"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_height="@dimen/_82sdp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_height="wrap_content"
+                        android:text= "Room 2"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+
+                        android:layout_width="@dimen/_95sdp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:id="@+id/room2_led_imageView"
+                            android:layout_gravity="left"
+                            android:src="@drawable/closedled"/>
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_gravity="right"
+                            android:id="@+id/room2_door_imageView"
+                            android:layout_height="@dimen/_30sdp"
+                            android:src="@drawable/closedroomdoor"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardBackgroundColor="#FEE1BB"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_margin="@dimen/_6sdp"
+                android:id="@+id/garage_door_imageview"
+                android:src="@drawable/closedgrage"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_60sdp"  />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

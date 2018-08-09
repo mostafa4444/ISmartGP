@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "928735828576",
+    "firebase_url": "https://ismartgp-a4f4f.firebaseio.com",
+    "project_id": "ismartgp-a4f4f",
+    "storage_bucket": "ismartgp-a4f4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928735828576:android:28c00cb507566283",
+        "android_client_info": {
+          "package_name": "com.mostafa.root.ismartgp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928735828576-qmji95v9jfane79llitb248n0sfji61e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mostafa.root.ismartgp",
+            "certificate_hash": "593416e7b23fb261382b3e5340ce05780910b946"
+          }
+        },
+        {
+          "client_id": "928735828576-qm0hot8ff6mbtj950vd4f568gfsfl8b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mostafa.root.ismartgp",
+            "certificate_hash": "6f918478e97b54cf07757dee46e35c4e281fe49b"
+          }
+        },
+        {
+          "client_id": "928735828576-vvvl9jdrppjhg33io2t6p5ncc493dj46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOs71QjLNAU9wL_27PZIs6B-69_ral_bY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928735828576-vvvl9jdrppjhg33io2t6p5ncc493dj46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:src="@drawable/newlogocopy"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="iHome"
+            android:textColor="@color/bg_button_login"
+            android:textSize="@dimen/_72sdp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_account_circle"
+                android:drawableStart="@drawable/ic_account_circle"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/password_login"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text"
+                android:drawableStart="@drawable/ic_lock_password"
+                android:drawableRight="@drawable/ic_remove_red_eye"
+                android:drawableLeft="@drawable/ic_lock_password"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp">
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/remember_me"
+                android:text="Remember Me"
+                android:textColor="@color/bg_button_login"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@color/bg_button_login"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
